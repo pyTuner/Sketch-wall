@@ -1,14 +1,15 @@
 {
   "files": {
     "main.css": "/Sketch-wall/static/css/main.9b57dce9.css",
-    "main.js": "/Sketch-wall/static/js/main.815765f7.js",
+    "main.js": "/Sketch-wall/static/js/main.a61b8995.js",
     "static/media/loadingAnim.gif": "/Sketch-wall/static/media/loadingAnim.9bd6bfc7fdef2582aec5.gif",
+    "static/media/logo.png": "/Sketch-wall/static/media/logo.731fa868746a6c5d1377.png",
     "index.html": "/Sketch-wall/index.html",
     "main.9b57dce9.css.map": "/Sketch-wall/static/css/main.9b57dce9.css.map",
-    "main.815765f7.js.map": "/Sketch-wall/static/js/main.815765f7.js.map"
+    "main.a61b8995.js.map": "/Sketch-wall/static/js/main.a61b8995.js.map"
   },
   "entrypoints": [
     "static/css/main.9b57dce9.css",
-    "static/js/main.815765f7.js"
+    "static/js/main.a61b8995.js"
   ]
 }
