@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Sketch-wall/static/css/main.9b57dce9.css",
-    "main.js": "/Sketch-wall/static/js/main.a15865cd.js",
+    "main.js": "/Sketch-wall/static/js/main.a150534c.js",
     "index.html": "/Sketch-wall/index.html",
     "main.9b57dce9.css.map": "/Sketch-wall/static/css/main.9b57dce9.css.map",
-    "main.a15865cd.js.map": "/Sketch-wall/static/js/main.a15865cd.js.map"
+    "main.a150534c.js.map": "/Sketch-wall/static/js/main.a150534c.js.map"
   },
   "entrypoints": [
     "static/css/main.9b57dce9.css",
-    "static/js/main.a15865cd.js"
+    "static/js/main.a150534c.js"
   ]
 }
