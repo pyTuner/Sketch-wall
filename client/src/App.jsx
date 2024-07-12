@@ -6,7 +6,7 @@ import FullScreenPage from './pages/FullScreenPage';
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/Sketch-wall'>
       <Routes>
         <Route path='/' Component={Homepage} />
         <Route path='/login' Component={LoginPage} />
