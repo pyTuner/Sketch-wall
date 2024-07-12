@@ -39,7 +39,7 @@ const Homepage = () => {
 
     return (
         <div>
-            <Navbar />
+            <Navbar fetchData={fetchData} />
             {
                 data === null ? <Loading /> :
                     (
