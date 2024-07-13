@@ -33,7 +33,7 @@ const Homepage = () => {
 
     // effects
     useEffect(() => {
-        fetchData('car');
+        fetchData('art');
     }, [])
 
 
