@@ -18,7 +18,7 @@ const Homepage = () => {
             const res = await axios.get(
                 `https://api.pexels.com/v1/search?query=${keyword}`,
                 {
-                    timeout: 1000,
+                    // timeout: 1000,
                     headers: {
                         'Authorization': authKey
                     }
@@ -33,7 +33,7 @@ const Homepage = () => {
 
     // effects
     useEffect(() => {
-        fetchData('art');
+        fetchData('creative');
     }, [])
 
 

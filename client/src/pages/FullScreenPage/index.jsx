@@ -28,7 +28,6 @@ const FullScreenPage = () => {
             }
         )
         setImgData(res.data);
-        console.log(res.data);
     }
 
     // back btn fn
