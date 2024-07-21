@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import Navbar from '../../layouts/Header/Navbar';
 import axios from 'axios';
 import Loading from '../../components/Loading';
 import ImageTile from '../../components/ImageTile';
@@ -39,7 +38,6 @@ const Homepage = () => {
 
     return (
         <div>
-            <Navbar fetchData={fetchData} />
             {
                 !data ? <Loading /> :
                     (
