@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import logo from '../assets/logo.png';
+import logo from '../../assets/Images/logo.png';
+
 const Navbar = ({ fetchData }) => {
     //states
     const [searchText, setSearchText] = useState('');
@@ -66,7 +67,7 @@ const Navbar = ({ fetchData }) => {
                             padding: 10,
                             borderRadius: 10,
                             backgroundColor: '#000',
-                            color:'#fff',
+                            color: '#fff',
                             marginLeft: '5px'
                         }}
                     >

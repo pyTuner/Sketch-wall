@@ -1,5 +1,5 @@
 import React from 'react'
-import loadGIF from '../assets/loadingAnim.gif';
+import loadGIF from '../../assets/Images/loadingAnim.gif'; 
 
 const Loading = () => {
     return (
@@ -9,8 +9,9 @@ const Loading = () => {
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
+            borderWidth: '1px solid',
         }}>
-            <img src={loadGIF} alt='Loading...' width={100} height={100} />
+            <img src={loadGIF} alt='Loading...' width={250} height={250} />
         </div>
     )
 }

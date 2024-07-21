@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import Navbar from '../../components/navbar';
+import Navbar from '../../layouts/Header/Navbar';
 import axios from 'axios';
-import Loading from '../../components/loading';
-import ImageTile from '../../components/imageTile';
+import Loading from '../../components/Loading';
+import ImageTile from '../../components/ImageTile';
 
 // default component 
 const Homepage = () => {
@@ -41,7 +41,7 @@ const Homepage = () => {
         <div>
             <Navbar fetchData={fetchData} />
             {
-                data === null ? <Loading /> :
+                !data ? <Loading /> :
                     (
                         <div style={{
                             display: 'flex',
