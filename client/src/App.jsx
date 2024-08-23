@@ -8,7 +8,7 @@ const App = () => {
   return (
     <BrowserRouter basename='/'>
       <Routes>
-        <Route path='/Sketch-wall' Component={Homepage} />
+        <Route path='/' Component={Homepage} />
         <Route path='/login' Component={LoginPage} />
         <Route path='/FullScreen/:id' Component={FullScreenPage} />
       </Routes>
