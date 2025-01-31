@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const ImageTile = ({ imgSource, imgId }) => {
+const ImageTile = forwardRef(({ imgSource, imgId }, ref) => {
 
     const navigate = useNavigate()
     return (
         <div
+            ref={ref}
+            key={imgId}
             style={{
                 backgroundImage: `url("${imgSource}")`,
                 backgroundSize: 'cover',
@@ -19,6 +21,6 @@ const ImageTile = ({ imgSource, imgId }) => {
         >
         </div>
     )
-}
+})
 
 export default ImageTile;

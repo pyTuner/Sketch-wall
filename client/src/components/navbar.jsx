@@ -66,7 +66,7 @@ const Navbar = ({ fetchData }) => {
                             padding: 10,
                             borderRadius: 10,
                             backgroundColor: '#000',
-                            color:'#fff',
+                            color: '#fff',
                             marginLeft: '5px'
                         }}
                     >

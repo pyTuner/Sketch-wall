@@ -32,7 +32,7 @@ const FullScreenPage = () => {
 
     // back btn fn
     const handleBackBtn = () => {
-        navigate('/Sketch-wall');
+        navigate('/');
     }
 
     //effects
